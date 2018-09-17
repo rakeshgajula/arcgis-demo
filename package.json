@@ -10,7 +10,7 @@
     "start": "webpack-dev-server --mode development --hot --progress --colors --port 3000 --open --host 0.0.0.0",
     "build": "webpack -p --progress --colors",
     "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\"",
-    "predeploy": "npm run build",
+    "predeploy1": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
